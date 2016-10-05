@@ -1,12 +1,11 @@
 {
   "name": "language--l-c4--assembly",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "UPenn LC4 laguage support in Atom",
-  "keywords": [
-  ],
-  "repository": { 
-          "type": "git",
-          "url": "https://github.com/liamdugan/language-lc4-assembly"
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liamdugan/language-lc4-assembly"
   },
   "license": "MIT",
   "engines": {
