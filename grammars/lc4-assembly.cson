@@ -1,0 +1,38 @@
+'scopeName': 'source.lc4-assembly'
+'name': 'LC4-Assembly'
+'fileTypes': ['.asm']
+
+'patterns': [
+    {
+        'match': ;.*
+        'name': 'comment.line.lc4-assembly'
+    },
+    {
+        'match': 'R[0-7]'
+        'name': 'storage.type.register.lc4-assembly'
+    },
+    {
+        'match': '\b(NOP|BRn|BRnz|BRnp|BRz|BRzp|BRp|BRnzp|ADD|MUL|SUB|DIV|CMP|CMPU|CMPI|CMPIU|JSR|JSRR|AND|NOT|OR|XOR|LDR|STR|RTI|CONST|SLL|SRA|SRL|MOD|JMPR|JMP|HICONST|TRAP|RET|LEA|LC)\b'
+        'name': 'entity.name.function.instruction.lc4-assembly'
+    },
+    {
+        'match': '#-?\d+'
+        'name': 'constant.numeric.dec.lc4-assembly'
+    },
+    {
+        'match': '0?x[0-9a-fA-F]{1,4}+'
+        'name': 'constant.numeric.hex.lc4-assembly'
+    },
+    {
+        'match': '[bB][01]+'
+        'name': 'constant.numeric.bin.lc4-assembly'
+    },
+    {
+        'match': '\.(DATA|CODE|ADDR|FALIGN|FILL|BLKW|CONST|UCONST|STRINGZ)\b'
+        'name': 'keyword.directive.lc4-assembly'
+    },
+    {
+        'match': '"[^"\n]*"'
+        'name': 'string.quoted.double.lc4-assmebly'
+    }
+]
