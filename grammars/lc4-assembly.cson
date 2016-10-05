@@ -4,7 +4,7 @@
 
 'patterns': [
     {
-        'match': ;.*
+        'match': ';.*'
         'name': 'comment.line.lc4-assembly'
     },
     {
