@@ -12,11 +12,11 @@
         'name': 'storage.type.register.lc4-assembly'
     },
     {
-        'match': '\b(NOP|BRn|BRnz|BRnp|BRz|BRzp|BRp|BRnzp|ADD|MUL|SUB|DIV|CMP|CMPU|CMPI|CMPIU|JSR|JSRR|AND|NOT|OR|XOR|LDR|STR|RTI|CONST|SLL|SRA|SRL|MOD|JMPR|JMP|HICONST|TRAP|RET|LEA|LC)\b'
+        'match': '\\b(NOP|BRn|BRnz|BRnp|BRz|BRzp|BRp|BRnzp|ADD|MUL|SUB|DIV|CMP|CMPU|CMPI|CMPIU|JSR|JSRR|AND|NOT|OR|XOR|LDR|STR|RTI|CONST|SLL|SRA|SRL|MOD|JMPR|JMP|HICONST|TRAP|RET|LEA|LC)\\b'
         'name': 'entity.name.function.instruction.lc4-assembly'
     },
     {
-        'match': '#-?\d+'
+        'match': '#-?\\d+'
         'name': 'constant.numeric.dec.lc4-assembly'
     },
     {
@@ -28,11 +28,11 @@
         'name': 'constant.numeric.bin.lc4-assembly'
     },
     {
-        'match': '\.(DATA|CODE|ADDR|FALIGN|FILL|BLKW|CONST|UCONST|STRINGZ)\b'
+        'match': '\\.(DATA|CODE|ADDR|FALIGN|FILL|BLKW|CONST|UCONST|STRINGZ)\\b'
         'name': 'keyword.directive.lc4-assembly'
     },
     {
-        'match': '"[^"\n]*"'
+        'match': '"[^"\\n]*"'
         'name': 'string.quoted.double.lc4-assmebly'
     }
 ]
