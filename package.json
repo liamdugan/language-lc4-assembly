@@ -1,6 +1,6 @@
 {
   "name": "language--l-c4--assembly",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "UPenn LC4 laguage support in Atom",
   "keywords": [],
   "repository": {
